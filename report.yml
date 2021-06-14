@@ -1,0 +1,17 @@
+---
+crosscompute: 0.8.4
+kind: report
+name: '{country_name} - OnSSET'
+input:
+  variables:
+output:
+  templates:
+    - path: sections/overview/result.yml
+print:
+  style:
+    path: report.css
+  header:
+    path: header.md
+  footer:
+    path: footer.md
+  format: pdf

@@ -1,0 +1,12 @@
+---
+crosscompute: 0.8.4
+kind: result
+name: '{country_name} - Overview'
+tool:
+  path: tool.yml
+input:
+  variables:
+print:
+  style:
+    path: report.css
+  format: pdf

@@ -1,0 +1,40 @@
+---
+crosscompute: 0.8.4
+kind: tool
+name: Overview
+version:
+  name: 0.0.1
+input:
+  variables:
+output:
+  variables:
+    - id: overview-map
+      view: map
+      path: overview-map.geojson
+    - id: overview-table
+      view: table
+      path: overview-table.csv
+    - id: scenarios
+      view: markdown
+      path: scenarios.md
+    - id: filters
+      view: markdown
+      path: filters.md
+    - id: about
+      view: markdown
+      path: about.md
+  templates:
+    - id: standard
+      path: result.md
+tests:
+  - folder: tests/standard
+script:
+  folder: .
+  command: python -c "$(jupyter nbconvert run.ipynb --to script --stdout)"
+repository:
+  uri: git@github.com:crosscompute/onsset-report-example
+  folder: .
+environment: 
+  image: docker.io/library/python:slim-buster
+  processor: cpu
+  memory: tiny
