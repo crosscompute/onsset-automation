@@ -14,17 +14,11 @@
 
 <img src="https://pbs.twimg.com/media/DhwZK7UWkAIp-7W?format=jpg&name=large" width=60% alt="">
 
-<table>
+<table class='table-overview'>
   <tr>
-    <th>
-    Population connected
-    </th>
-    <th>
-      Investment required
-    </th>
-    <th>
-      Added capacity
-    </th>
+    <th style='align: right'>Population connected</th>
+    <th>Investment required</th>
+    <th>Added capacity</th>
   </tr>
   <tr>
     <td>3 830 918</td>
@@ -48,3 +42,29 @@
   </tr>
 </table>
 
+<h3>Scenarios</h3>
+The model determined the least cost electrifcation option for each area based on the following assumptions.
+
+Population Growth
+Medium population growth (2.8%)
+
+Electricity demand target
+Top-down demand target - Low (U3R1)
+
+Intermediate investment plan 
+Not capped
+
+Grid generating cost of electricity
+Estimated on-grid cost (0.108 $/kWh)
+
+PV system cost
+Expected PV cost
+
+Rollout plan
+Nationwide Least Cost approach
+
+<h3>Filters</h3>
+No filters applied to the model results.
+
+<h3>About</h3>
+This model is developed using the Open Source Spatial Electrification Tool (OnSSET). Full access to the source code behind this model is available at https://github.com/global-electrification-platform. For more information on the functionality of the model please contact the development team at KTH.
