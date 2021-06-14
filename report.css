@@ -10,3 +10,17 @@ body {
   line-height: 130%;
   font-size: 12pt;
 }
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+.overview h1, .overview h2 {
+  // Reduce margin bottom
+}
+
+.overview div p {
+  color: #AAA;
+}
