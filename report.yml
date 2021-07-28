@@ -4,6 +4,10 @@ kind: report
 name: '{country_name} - OnSSET'
 input:
   variables:
+    - id: title
+      view: text
+      data:
+        path: sections/overview/data/title.txt
 output:
   templates:
     - path: sections/overview/result.yml

@@ -5,7 +5,22 @@ name: Overview
 version:
   name: 0.0.1
 input:
-  variables:
+  variables: 
+    - id: country_name
+      view: text
+      path: settings.json
+    - id: cities
+      view: table
+      path: cities.csv
+    - id: scenario-info
+      view: table
+      path: scenario_info.csv
+    - id: scenario-parameters
+      view: table
+      path: scenario_parameters.csv
+    - id: specifications
+      view: table
+      path: specs_data.csv
 output:
   variables:
     - id: overview-map
@@ -14,15 +29,6 @@ output:
     - id: overview-table
       view: table
       path: overview-table.csv
-    - id: scenarios
-      view: markdown
-      path: scenarios.md
-    - id: filters
-      view: markdown
-      path: filters.md
-    - id: about
-      view: markdown
-      path: about.md
   templates:
     - id: standard
       path: result.md

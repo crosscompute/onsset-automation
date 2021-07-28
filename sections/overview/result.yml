@@ -6,6 +6,21 @@ tool:
   path: tool.yml
 input:
   variables:
+    - id: country_name
+      data:
+          path: data/title.txt
+    - id: cities
+      data:
+          path: cities.csv
+    - id: scenario-info
+      data:
+          path: scenario_info.csv
+    - id: scenario-parameters
+      data:
+          path: scenario_parameters.csv
+    - id: specifications
+      data:
+          path: specs_data.csv
 print:
   style:
     path: report.css
