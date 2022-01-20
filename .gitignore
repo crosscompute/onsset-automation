@@ -8,13 +8,12 @@
 .coverage
 .ipynb_checkpoints
 .pytest_cache
+.tox
 __pycache__
 build/
 dist/
-.tox
 # transient
 *.log
 *.tmp
 *_data
 .DS_Store
-.~lock*
