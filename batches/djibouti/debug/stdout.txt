@@ -1,0 +1,8 @@
+The calibrated population differs by 0.00. In case this is not acceptable please revise this part of the code
+We have identified the existence of transformers or MV lines as input data; therefore we proceed using those for the calibration
+The modelled electrification rate differ by -0.60. Urban elec. rate differ by -0.70 and Rural elec. rate differ by -0.26. 
+If this is not acceptable please revise this part of the algorithm
+Djibouti
+Scenario: 1
+The electrification rate achieved in 2025 is 44.8 %
+The electrification rate achieved in 2030 is 100.0 %
