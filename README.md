@@ -29,7 +29,7 @@ crosscompute
 
 ## Add Batches
 
-First, create the batch folders:
+First, create the batch folders.
 
 ```bash
 cp -r batches/djibouti batches/lesotho
@@ -39,11 +39,10 @@ libreoffice batches/lesotho/specs-data.csv
 libreoffice batches/lesotho/settlements.csv
 ```
 
-Then, update the configuration file:
+Then, update the configuration file.
 
 ```bash
 vim automate.yml
-
   batches:
   - name: Djibouti
     folder: batches/djibouti
