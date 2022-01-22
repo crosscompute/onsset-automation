@@ -18,3 +18,5 @@ dist/
 *_data
 .DS_Store
 .~lock.*
+stderr.txt
+stdout.txt
