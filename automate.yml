@@ -53,8 +53,8 @@ output:
               circle-color: yellow
         path: map.json
     - id: overview
-      view: text
-      path: overview.csv
+      view: table
+      path: overview.json
 
   # output templates
   # - path to your markdown template or jupyter notebook form

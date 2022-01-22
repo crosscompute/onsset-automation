@@ -5,3 +5,15 @@ textarea {
 .map {
   height: 600px;
 }
+
+.overview {
+  width: 100%;
+}
+
+.overview th:first-child {
+  text-align: left;
+}
+
+.overview th + th, td + td {
+  text-align: right;
+}

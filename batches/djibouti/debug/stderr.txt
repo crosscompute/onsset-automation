@@ -1,54 +1,54 @@
 [NbConvertApp] Converting notebook run.ipynb to script
-2022-01-21 17:22:00,483		Populate ResidentialDemandTier columns
-2022-01-21 17:22:00,483		Ensure that columns that are supposed to be numeric are numeric
-2022-01-21 17:22:00,487		Replace null values with zero
-2022-01-21 17:22:00,487		Sort by country, Y and X
-2022-01-21 17:22:00,489		Classify road dist
-2022-01-21 17:22:00,490		Classify substation dist
-2022-01-21 17:22:00,491		Classify elevation
-2022-01-21 17:22:00,492		Classify slope
-2022-01-21 17:22:00,493		Classify land cover
-2022-01-21 17:22:00,494		Combined classification
-2022-01-21 17:22:00,495		Grid penalty
-2022-01-21 17:22:00,496		Calculate Wind CF
-2022-01-21 17:22:00,519		Population calibration process
-2022-01-21 17:22:00,532		Urban/rural calibration process
-2022-01-21 17:22:00,581		Population projection process
-2022-01-21 17:22:00,653		Calibrate current electrification
-2022-01-21 17:22:00,749		Calibration finished. Results are transferred to the csv file
-2022-01-21 17:22:00,880		Determine current MV line length
-2022-01-21 17:22:00,882		Calculate new connections
-2022-01-21 17:22:00,884		Setting electrification demand as per target per year
-2022-01-21 17:22:00,897		Calculate minigrid hydro LCOE
-2022-01-21 17:22:00,918		Calculate minigrid PV LCOE
-2022-01-21 17:22:00,938		Calculate minigrid wind LCOE
-2022-01-21 17:22:00,960		Calculate standalone PV LCOE
-2022-01-21 17:22:00,971		Determine minimum technology (off-grid)
-2022-01-21 17:22:00,983		Determine minimum tech LCOE
-2022-01-21 17:22:00,988		Define the initial electrification status
-2022-01-21 17:22:01,031		Initially 0 electrified
-2022-01-21 17:22:01,077		Electrification loop 1 with 53 electrified
-2022-01-21 17:22:01,105		Electrification loop 2 with 3 electrified
-2022-01-21 17:22:01,134		Electrification loop 3 with 1 electrified
-2022-01-21 17:22:01,146		Calculate investment cost
-2022-01-21 17:22:01,148		Determine electrification limits
-2022-01-21 17:22:01,152		Determine final electrification decision
-2022-01-21 17:22:01,152		Calculate new capacity
-2022-01-21 17:22:01,158		Calculate summaries
-2022-01-21 17:22:01,176		Calculate new connections
-2022-01-21 17:22:01,179		Setting electrification demand as per target per year
-2022-01-21 17:22:01,186		Calculate minigrid hydro LCOE
-2022-01-21 17:22:01,207		Calculate minigrid PV LCOE
-2022-01-21 17:22:01,228		Calculate minigrid wind LCOE
-2022-01-21 17:22:01,248		Calculate standalone PV LCOE
-2022-01-21 17:22:01,260		Determine minimum technology (off-grid)
-2022-01-21 17:22:01,271		Determine minimum tech LCOE
-2022-01-21 17:22:01,277		Define the initial electrification status
-2022-01-21 17:22:01,320		Initially 57 electrified
-2022-01-21 17:22:01,366		Electrification loop 1 with 655 electrified
-2022-01-21 17:22:01,408		Calculate investment cost
-2022-01-21 17:22:01,410		Determine electrification limits
-2022-01-21 17:22:01,412		Determine final electrification decision
-2022-01-21 17:22:01,412		Calculate new capacity
-2022-01-21 17:22:01,417		Calculate summaries
-2022-01-21 17:22:01,542		Finished
+2022-01-21 18:44:18,829		Populate ResidentialDemandTier columns
+2022-01-21 18:44:18,829		Ensure that columns that are supposed to be numeric are numeric
+2022-01-21 18:44:18,833		Replace null values with zero
+2022-01-21 18:44:18,834		Sort by country, Y and X
+2022-01-21 18:44:18,835		Classify road dist
+2022-01-21 18:44:18,837		Classify substation dist
+2022-01-21 18:44:18,837		Classify elevation
+2022-01-21 18:44:18,838		Classify slope
+2022-01-21 18:44:18,839		Classify land cover
+2022-01-21 18:44:18,840		Combined classification
+2022-01-21 18:44:18,840		Grid penalty
+2022-01-21 18:44:18,841		Calculate Wind CF
+2022-01-21 18:44:18,860		Population calibration process
+2022-01-21 18:44:18,872		Urban/rural calibration process
+2022-01-21 18:44:18,917		Population projection process
+2022-01-21 18:44:18,989		Calibrate current electrification
+2022-01-21 18:44:19,102		Calibration finished. Results are transferred to the csv file
+2022-01-21 18:44:19,289		Determine current MV line length
+2022-01-21 18:44:19,291		Calculate new connections
+2022-01-21 18:44:19,292		Setting electrification demand as per target per year
+2022-01-21 18:44:19,307		Calculate minigrid hydro LCOE
+2022-01-21 18:44:19,331		Calculate minigrid PV LCOE
+2022-01-21 18:44:19,355		Calculate minigrid wind LCOE
+2022-01-21 18:44:19,378		Calculate standalone PV LCOE
+2022-01-21 18:44:19,391		Determine minimum technology (off-grid)
+2022-01-21 18:44:19,406		Determine minimum tech LCOE
+2022-01-21 18:44:19,412		Define the initial electrification status
+2022-01-21 18:44:19,458		Initially 0 electrified
+2022-01-21 18:44:19,504		Electrification loop 1 with 53 electrified
+2022-01-21 18:44:19,531		Electrification loop 2 with 3 electrified
+2022-01-21 18:44:19,557		Electrification loop 3 with 1 electrified
+2022-01-21 18:44:19,569		Calculate investment cost
+2022-01-21 18:44:19,572		Determine electrification limits
+2022-01-21 18:44:19,575		Determine final electrification decision
+2022-01-21 18:44:19,576		Calculate new capacity
+2022-01-21 18:44:19,580		Calculate summaries
+2022-01-21 18:44:19,599		Calculate new connections
+2022-01-21 18:44:19,602		Setting electrification demand as per target per year
+2022-01-21 18:44:19,610		Calculate minigrid hydro LCOE
+2022-01-21 18:44:19,630		Calculate minigrid PV LCOE
+2022-01-21 18:44:19,650		Calculate minigrid wind LCOE
+2022-01-21 18:44:19,677		Calculate standalone PV LCOE
+2022-01-21 18:44:19,698		Determine minimum technology (off-grid)
+2022-01-21 18:44:19,718		Determine minimum tech LCOE
+2022-01-21 18:44:19,726		Define the initial electrification status
+2022-01-21 18:44:19,798		Initially 57 electrified
+2022-01-21 18:44:19,873		Electrification loop 1 with 655 electrified
+2022-01-21 18:44:19,924		Calculate investment cost
+2022-01-21 18:44:19,929		Determine electrification limits
+2022-01-21 18:44:19,931		Determine final electrification decision
+2022-01-21 18:44:19,932		Calculate new capacity
+2022-01-21 18:44:19,938		Calculate summaries
+2022-01-21 18:44:20,072		Finished
