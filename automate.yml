@@ -70,6 +70,12 @@ output:
 batches:
   - name: Djibouti
     folder: batches/djibouti
+  - name: {scenario_name}
+    folder: batches/{scenario_name | slug}
+    reference:
+      folder: batches/djibouti
+    configuration:
+      path: datasets/batches.csv
 
 # script configuration
 script:
