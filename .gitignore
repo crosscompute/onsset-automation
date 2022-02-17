@@ -18,5 +18,6 @@ dist/
 *_data
 .DS_Store
 .~lock.*
+batches/
 debug/
 run.py
