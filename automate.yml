@@ -70,21 +70,17 @@ output:
 batches:
   - name: Djibouti
     folder: batches/djibouti
-  - name: '{scenario_name}'
-    folder: batches/{scenario_name | slug}
-    reference:
-      folder: batches/djibouti
-    configuration:
-      path: datasets/batches.csv
+# - name: 'Rural-{NumPeoplePerHHRural}-Urban-{NumPeoplePerHHUrban}'
+#   folder: batches/rural-{NumPeoplePerHHRural}-urban-{NumPeoplePerHHUrban}
+#   reference:
+#     folder: batches/djibouti
+#   configuration:
+#     path: datasets/batches.csv
 
-# script configuration
-script:
-
-  # folder where your script should run
-  folder: .
-
-  # path to your script, relative to the script folder
-  path: run.ipynb
+# scripts configuration
+# - path to your script, relative to the script folder
+scripts:
+  - path: run.ipynb
 
 # display configuration
 display:
