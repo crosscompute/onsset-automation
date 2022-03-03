@@ -18,6 +18,9 @@ dist/
 *_data
 .DS_Store
 .~lock.*
+# data
+datasets/
 batches/
+runs/
 debug/
-run.py
+.*.ipynb.py
