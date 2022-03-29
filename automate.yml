@@ -17,13 +17,13 @@ input:
   # - path where your script loads the variable,
   #   relative to the input folder
   variables:
-    - id: scenario-info
+    - id: scenario_info
       view: text
       path: scenario-info.csv
-    - id: scenario-parameters
+    - id: scenario_parameters
       view: text
       path: scenario-parameters.csv
-    - id: specs-data
+    - id: specs_data
       view: text
       path: specs-data.csv
 
