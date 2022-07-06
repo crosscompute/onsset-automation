@@ -51,7 +51,6 @@ output:
           - type: circle
             paint:
               circle-color: yellow
-        path: map.json
     - id: overview
       view: table
       path: overview.json
