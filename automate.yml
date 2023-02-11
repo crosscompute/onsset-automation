@@ -4,6 +4,9 @@ name: Run OnSSET
 version: 0.0.3
 input:
   variables:
+    - id: settlements
+      view: text
+      path: settlements.csv
     - id: scenario_info
       view: text
       path: scenario-info.csv
