@@ -1,21 +1,8 @@
 ---
-# version of crosscompute
 crosscompute: 0.9.3
-
-# name of your automation
 name: Run OnSSET
-
-# version of your automation
 version: 0.0.3
-
-# input configuration
 input:
-
-  # input variables
-  # - id to use when referencing your variable in the template
-  # - view to use when rendering your variable on the display
-  # - path where your script loads the variable,
-  #   relative to the input folder
   variables:
     - id: scenario_info
       view: text
@@ -26,15 +13,7 @@ input:
     - id: specs_data
       view: text
       path: specs-data.csv
-
-# output configuration
 output:
-
-  # output variables
-  # - id to use when referencing your variable in the template
-  # - view to use when rendering your variable on the display
-  # - path where your script saves the variable,
-  #   relative to the output folder
   variables:
     - id: country_name
       view: string
@@ -54,18 +33,8 @@ output:
     - id: overview
       view: table
       path: overview.json
-
-  # output templates
-  # - path to your markdown template or jupyter notebook form
   templates:
     - path: report.md
-
-# batches configuration
-# - name of the batch; can include variable ids for batch template
-# - folder that contains an input subfolder with paths for
-#   input variables that define a specific batch
-# - configuration for batch template
-#   - path containing different values for the input variables
 batches:
   - name: Djibouti
     folder: batches/djibouti
@@ -75,24 +44,11 @@ batches:
 #     folder: batches/djibouti
 #   configuration:
 #     path: datasets/batches.csv
-
-# scripts configuration
-# - path to your script, relative to the script folder
 scripts:
   - path: run.ipynb
-
-# display configuration
 display:
-
-  # styles configuration
-  # - uri to CSS stylesheet that will be used to render your templates
-  # - path to CSS stylesheet that will be used to render your templates
   styles:
     - path: report.css
-
-  # pages configuration
-  # - id of the page (required)
-  # - configuration of the page
   pages:
     - id: output
       configuration:
