@@ -1,6 +1,7 @@
 ---
 crosscompute: 0.9.4
 name: Run OnSSET
+slug: run-onsset
 version: 0.0.3
 input:
   variables:
@@ -28,7 +29,7 @@ output:
       view: map-mapbox
       path: map.geojson
       configuration:
-        style: mapbox://styles/mapbox/dark-v10
+        style: mapbox://styles/mapbox/dark-v11
         layers:
           - type: circle
             paint:
@@ -37,7 +38,7 @@ output:
       view: table
       path: overview.json
   templates:
-    - path: report.md
+    - path: output.md
 batches:
   - name: Djibouti
     folder: batches/djibouti

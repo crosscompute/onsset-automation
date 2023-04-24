@@ -7,15 +7,15 @@
 ## Serve Automation
 
 ```bash
-sudo dnf -y install python3.9
-# sudo apt -y install python3.9
+sudo dnf -y install python3.10
+# sudo apt -y install python3.10
 
-python3.9 -m venv ~/.virtualenvs/crosscompute
+python3 -m venv ~/.virtualenvs/crosscompute
 source ~/.virtualenvs/crosscompute/bin/activate
 
 pip install --upgrade \
-    crosscompute>=0.9.1 \
-    crosscompute-views-map>=0.0.2
+    crosscompute>=0.9.4 \
+    crosscompute-views-map>=0.2.0
 
 cd ~/Documents
 git clone https://github.com/crosscompute/onsset-automation
