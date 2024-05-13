@@ -1,8 +1,9 @@
 ---
 crosscompute: 0.9.4
 name: Run OnSSET
-slug: run-onsset
+description: Run the Open Source Spatial Electrification Tool (OnSSET) from the Swedish Centre for Smart Grids and Energy Storage at KTH
 version: 0.0.3
+attribution_text: [Swedish Centre for Smart Grids and Energy Storage at KTH](https://www.kth.se/swegrids) © 2022
 input:
   variables:
     - id: settlements
@@ -50,6 +51,14 @@ batches:
 #     path: datasets/batches.csv
 scripts:
   - path: run.ipynb
+environment:
+  packages:
+    - id: onsset
+      manager: pip
+    - id: openpyxl
+      manager: pip
+    - id: pandas
+      manager: pip
 display:
   styles:
     - path: style.css
