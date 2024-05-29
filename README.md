@@ -42,7 +42,7 @@ libreoffice batches/lesotho/settlements.csv
 Then, update the configuration file.
 
 ```bash
-vim automate.yml
+vim automate.yaml
   batches:
   - name: Djibouti
     folder: batches/djibouti
