@@ -3,7 +3,8 @@ crosscompute: 0.9.4
 name: Run OnSSET
 description: Run the Open Source Spatial Electrification Tool (OnSSET) from the Swedish Centre for Smart Grids and Energy Storage at KTH
 version: 0.0.3
-attribution_text: "[Swedish Centre for Smart Grids and Energy Storage at KTH](https://www.kth.se/swegrids) © 2022"
+copyright:
+  text: "[Swedish Centre for Smart Grids and Energy Storage at KTH](https://www.kth.se/swegrids) © 2022"
 input:
   variables:
     - id: settlements
