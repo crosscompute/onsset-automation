@@ -41,15 +41,15 @@ output:
       path: overview.json
   templates:
     - path: output.md
-batches:
+presets:
   - name: Djibouti
-    folder: batches/djibouti
+    folder: presets/djibouti
 # - name: 'Rural-{NumPeoplePerHHRural}-Urban-{NumPeoplePerHHUrban}'
-#   folder: batches/rural-{NumPeoplePerHHRural}-urban-{NumPeoplePerHHUrban}
+#   folder: presets/rural-{NumPeoplePerHHRural}-urban-{NumPeoplePerHHUrban}
 #   reference:
-#     folder: batches/djibouti
+#     folder: presets/djibouti
 #   configuration:
-#     path: datasets/batches.csv
+#     path: datasets/presets.csv
 scripts:
   - path: run.ipynb
 environment:
